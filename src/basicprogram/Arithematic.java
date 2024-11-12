@@ -1,5 +1,7 @@
 package basicprogram;
 
+import java.util.Scanner;
+
 public class Arithematic {
 	static void add()
 	{
@@ -40,6 +42,11 @@ public class Arithematic {
 
 public static void main(String[] args)
 {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the nameh");
+	String name = sc.next();
+	System.out.println("The entered name  is"+name);
+	
 		add();
 		sub();
 		mul();

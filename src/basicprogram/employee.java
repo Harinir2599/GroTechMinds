@@ -1,6 +1,10 @@
+//ASSIGNMENT 6
 package basicprogram;
 
 public class employee {
+	employee(){
+		
+	}
 	
 	
 
