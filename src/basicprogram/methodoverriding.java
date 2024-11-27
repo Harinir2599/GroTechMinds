@@ -10,7 +10,7 @@ class methodoverriding {
 }
 class childclass extends methodoverriding{
 	void login() {
-		//super.login();
+		super.login(); // only because of this super keyword both the o/p is printed
 		System.out.println("Login with emailid");
 	}
 	public static void main(String[] args) {

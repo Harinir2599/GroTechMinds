@@ -1,6 +1,6 @@
 package basicprogram;
 
-public class assignment5 {
+public class ifelseif {
 	public static void main(String[] args) {
 		int age = 20;
 		int weight = 50;

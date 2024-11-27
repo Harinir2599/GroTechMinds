@@ -2,7 +2,7 @@ package basicprogram;
 
 import java.util.Scanner;
 
-public class assignment13 {
+public class switchcase {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number of the day");

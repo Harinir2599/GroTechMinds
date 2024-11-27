@@ -1,19 +1,19 @@
 package basicprogram;
 
-public class assignment12 {
+public class ex_variables {
 	//global variables
 	public  static int a=5;
 	public  static double b=5.5; 
 	
 	// constructor
-	  assignment12(int r){
+	  ex_variables(int r){
 		  final double pi = 3.14;//final variable
 		  double area;//local variable
 		  area = pi*r*r;
 		  System.out.println("Area=" +area);
 			  
 		  }
-	  assignment12(int a,double b){
+	  ex_variables(int a,double b){
 		  
 		  
 		  double sum;
@@ -23,8 +23,8 @@ public class assignment12 {
 		  
 	  }
 	  public static void main(String[] args) {
-		  assignment12 a1 = new assignment12(10);
-		  assignment12 a2 = new assignment12(assignment12.a,assignment12.b);
+		  ex_variables a1 = new ex_variables(10);
+		  ex_variables a2 = new ex_variables(ex_variables.a,ex_variables.b);
 		 
 		  
 	  }

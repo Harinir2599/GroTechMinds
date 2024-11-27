@@ -1,6 +1,6 @@
 package basicprogram;
 
-public class assignment3 {
+public class ifelse {
 	public static void main(String[] args) {
 		int a = 50;
 		int b = 80;
