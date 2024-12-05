@@ -10,6 +10,8 @@ import java.util.Set;
 
 public class Collections_basic {
     public static void main(String[] args) {
+    	
+    	
     	                                                                                                                                               
 		
 		  Map<String, Integer> m1 = new HashMap<String, Integer>();

@@ -18,6 +18,7 @@ public class Stack_problem {
 	System.out.println(s);
 	s.peek();
 	System.out.println(s);
+	
 	}
 
 }
