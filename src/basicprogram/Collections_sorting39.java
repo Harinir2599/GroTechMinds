@@ -13,7 +13,7 @@ public class Collections_sorting39 {
 		c.add("Perl");
 		c.add("Jenkins");
 		System.out.println(c);
-		
+	
 		List<String> s = new ArrayList<String>(c);
 		Collections.sort(s);
 		System.out.println("The sorted List->"+s);

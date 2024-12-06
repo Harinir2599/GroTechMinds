@@ -13,6 +13,7 @@ public class List_iterator {
 		l.add("Lion");
 		l.add("Tiger");
 		l.add("Cow");
+	
 		System.out.println(l);
 		Iterator<String> i = l.iterator();
 		while (i.hasNext()) {
