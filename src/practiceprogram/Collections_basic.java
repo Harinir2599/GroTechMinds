@@ -28,19 +28,8 @@ public class Collections_basic {
 		  m2.put("Bhavani", 54);      
 		  m2.remove("Krishna");
 		  System.out.println(m2);
-		  System.out.println(m2.keySet());
-		  System.out.println(m2.values());
 		  
-		  for(String s1 : m2.keySet()) {
-			  System.out.println(s1);
-		  }
-		  for (Integer i1 : m2.values()) {
-			  System.out.println(i1);
-		  }
-		  for(Map.Entry<String, Integer> e1 : m2.entrySet()) {
-			  System.out.println(e1);
-			  
-		  }
+		  
 		  Set<Map.Entry<String, Integer>> se1 = m2.entrySet();
 		  Iterator<Map.Entry<String, Integer>> i = se1.iterator();	
 		  while(i.hasNext()) {

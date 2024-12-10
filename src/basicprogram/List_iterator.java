@@ -20,7 +20,7 @@ public class List_iterator {
 			System.out.println(i.next());
 			
 		}
-		ListIterator li = l.listIterator();
+		ListIterator<String> li = l.listIterator();
 		while (li.hasNext()) {
 			System.out.println(li.next());
 			
