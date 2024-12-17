@@ -21,5 +21,8 @@ public static void main(String[] args) {
         
         System.out.println("Invalid input. Please enter a valid integer.");
 }
+    finally {
+    	System.out.println("Harini");
+    }
 }
 }

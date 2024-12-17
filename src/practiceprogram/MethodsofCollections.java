@@ -35,6 +35,7 @@ public class MethodsofCollections {
 		num.add(15);
 		num.add(9);
 		System.out.println(num);
+		
 		int checknum = 25; //check whether the number is present in Al
 		for(int i = 0;i<num.size();i++) {
 			if(num.contains(checknum)) {

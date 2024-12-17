@@ -15,6 +15,8 @@ public static void main(String[] args) {
 	m.put("hamsa", 26);
 	m.put("Nagarajan", 30);
 	System.out.println(m);
+	
+	
 	for(String s : m.keySet())
 	{
 		System.out.println(s);

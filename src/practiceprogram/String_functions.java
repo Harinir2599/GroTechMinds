@@ -15,8 +15,19 @@ public static void main(String[] args) {
 	System.out.println(s1.contains("ri"));
 	
 	String email = "hariniravi25.hr@gmail.com";
-	boolean b1 = email.matches("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$");
-	System.out.println(b1);
+	
+	String s = "Harini";
+	String rev = "";
+	for(int i =s.length()-1;i>=0;i--) {
+		char r = s.charAt(i);
+		rev=rev+r;
+		
+	}
+	
+	System.out.println(rev);
+	if(s.equals(rev)) {
+		
+	}
 	
 
 	
