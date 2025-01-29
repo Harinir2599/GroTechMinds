@@ -18,7 +18,7 @@ jobs:
         distribution: 'temurin'
 
     - name: Compile Java program
-      run: javac assignment1.java
+      run: javac Arithematic.java
 
     - name: Run Java program
-      run: java assignment
+      run: java Arithematic
