@@ -21,4 +21,4 @@ jobs:
       run: javac src/basicprogram/Arithematic.java
 
     - name: Run Java program
-      run: java -cp src/basicprogram Arithematic
+      run: java -cp src basicprogram.Arithematic
