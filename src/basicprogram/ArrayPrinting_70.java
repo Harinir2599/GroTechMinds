@@ -18,6 +18,7 @@ public class ArrayPrinting_70 {
         System.out.println();
         System.out.println("Using Arrays.toString() method:");
         System.out.println(Arrays.toString(numbers));
+       
     }
 
 }

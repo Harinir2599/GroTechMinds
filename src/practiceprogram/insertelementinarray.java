@@ -2,6 +2,7 @@ package practiceprogram;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class insertelementinarray {
@@ -11,6 +12,7 @@ public class insertelementinarray {
 		for(int add:a) {
 			l.add(add);//converting array to list
 		}
+		Collections.reverse(l);
 		System.out.println(l);
 		l.add(15);
 		l.add(20);

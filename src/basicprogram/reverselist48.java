@@ -13,6 +13,7 @@ public static void main(String[] args) {
 		Collections.reverse(a); // reversed the list
 		System.out.println(a);
 		List<String> reversed = new ArrayList<String>();
+		
 		for(String name : a) { 
 			StringBuffer rev = new StringBuffer(name); // reversed each name within the list
 			rev.reverse();
